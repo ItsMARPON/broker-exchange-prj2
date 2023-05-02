@@ -1,0 +1,315 @@
+:root {
+    background-image: url(../images/green-BGI.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.site-header {
+    background-color: #0d5f4d;
+    color:#eed5b1;
+    margin: 0px;
+    padding:10px;
+    font-weight: bolder;
+}
+
+.post-suc {
+    color: #eed5b1;
+    background-color: #0d5f4d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.welcome {
+    float: right;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+.create-acc-header {
+    background-color: #0d5f4d;
+    padding: 10px;
+    color:#eed5b1;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.navbar {
+    border-style: solid;
+    border-color: #0d5f4d;
+    color: #0d5f4d;
+    font-style: bolder !important;
+}
+
+.navbar-item:hover {
+    background-color: #0d5f4d !important;
+    color:#eed5b1 !important;
+}
+
+.modal-background {
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    background-image: url(../images/modal-BGI.svg);
+    background-position: center;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.comment-card {
+    background-image: url(../images/modal-BGI.svg);
+    background-position:bottom;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.modal-header {
+    font-weight: bolder;
+    margin-bottom: 55px;
+    color: #0d5f4d;
+
+}
+
+
+.login-input, .create-input, .post-input, .thread-input {
+    border-radius: 10px;
+    background-color: #eed5b1;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-color: #0d5f4d !important;
+    border-width: 2px !important;
+    border-style: solid;
+    
+}
+
+.login-button, .delete-button, .thread-button {
+    border-radius: 10px;
+    margin-top: 35px !important;
+    background-color: #0d5f4d;
+    color:#eed5b1;
+    border-color: #eed5b1;
+    border-style:solid
+}
+
+.thread-button:hover {
+    background-color: #eed5b1 !important;
+    border-color:#0d5f4d !important;
+    color:#0d5f4d !important;
+    border-style:solid;
+}
+
+.login-button:hover {
+  background-color: #eed5b1 !important;
+  border-color:#0d5f4d !important;
+  color:#0d5f4d !important;
+  border-style:solid;
+}
+
+.delete-button:hover {
+    background-color: #eed5b1 !important;
+    border-color:#0d5f4d !important;
+    color:#0d5f4d !important;
+    border-style:solid;
+}
+
+.modal-img, .orange {
+    color:#0d5f4d;
+}
+.close-modal {
+    color:#eed5b1;
+    transition: transform .7s ease-in-out;
+}
+
+.close-modal:hover {
+    color:#0d5f4d !important;
+    background-color: transparent !important;
+    transform: rotate(360deg);
+}
+
+.black {
+    color: black !important;
+}
+
+.recent-posts, .profile-header {
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#eed5b1;
+   background-color: #0d5f4d;
+   font-size: 40px;
+}
+
+.post-container{
+    display: flex;
+    width: 100%;
+    height:100%;
+}
+
+.post-header{
+    color:#eed5b1;
+    font-weight: bolder;
+    background-color: #0d5f4d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    
+}
+
+.post-hist {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 24px;
+    color:#0d5f4d;
+    background-color:#eed5b1;
+    border-style: solid;
+    border-radius:20px;
+    border-color: #0d5f4d;
+    margin:20px;
+   width:30%;
+}
+
+
+.post{
+    margin: 20px;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: #0d5f4d;
+    background-color:#eed5b1;
+    box-shadow: 5px 5px 5px rgb(78, 78, 78);
+}
+
+.post-body, .post-need, .post-date{
+   padding-left:15px;
+   padding-right:15px;
+   padding-bottom:15px;
+}
+
+.post-need {
+    padding-top: 15px;
+}
+
+.create-container {
+    width: 100%;
+    height: 100%;
+}
+
+.create-post, .add-thread {
+    margin: 20px;
+    border-color:#eed5b1;
+    border-style: solid;
+    background-color: #0d5f4d;
+    border-radius: 20px;
+}
+
+.create-body {
+    padding: 20px;
+
+}
+
+.post-input {
+    border-radius: 10px;
+}
+
+.create-button, .add-thread {
+    background-color: #0d5f4d;
+    color:#eed5b1;
+    border-radius: 10px;
+    margin-top: 35px !important;
+    border-color: #eed5b1;
+    border-style:solid;
+    
+}
+.add-thread:hover {
+    background-color:#eed5b1 !important;
+    border-color: #0d5f4d !important;
+    color: #0d5f4d !important;
+    border-style:solid;
+  }
+
+.create-button:hover {
+  background-color:#eed5b1 !important;
+  border-color: #0d5f4d !important;
+  color: #0d5f4d !important;
+  border-style:solid;
+}
+.create-header{
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#eed5b1;
+   font-size: 40px;
+   
+}
+
+.profile-usr {
+    font-weight: bolder;
+    font-size: 24px;
+    color:#0d5f4d;
+    background-color: #eed5b1;
+    border-style: solid;
+    border-radius:20px;
+    border-color: #0d5f4d;
+    margin:20px;
+}
+
+.profile-hist {
+    font-weight: bolder;
+    font-size: 24px;
+    color:#eed5b1;
+    background-color: #0d5f4d;
+    border-style: solid;
+    border-radius:20px;
+    border-color: #eed5b1;
+    margin:20px;
+}
+
+ .thread-header{
+    padding:15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-style: solid;
+    border-color:#0d5f4d;
+    background-color: #0d5f4d;
+    color: #eed5b1;
+    font-weight: bold;
+    width: 100%; 
+}
+
+.thread-comment, .thread-counteroffer {
+    padding-left: 15px;
+}
+
+
+.thread-container {
+    border-color:#0d5f4d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-style: solid;
+} 
+
+#signup-form {
+    background-color: #0d5f4d;
+    border-radius: 20px;
+}
+
+#toggle-password {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    color: #eed5b1;
+    transition: transform .1s ease-in;
+}
+
+#toggle-password:hover {
+    transform: scale(1.2);
+}
